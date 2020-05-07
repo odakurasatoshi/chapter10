@@ -55,21 +55,3 @@ main{
 .title{
   margin: 15px 0 5px;
 }
-@media screen and (max-width:768px){
-	main{
-		width: 100%;
-	}
-	.step-box{
-		width: 90%;
-		float:none;
-	}
-	.step-box:first-child{
-		margin-top: 50px;
-	}
-	.step-box:nth-child(2){
-		margin: 20px 0 20px 0;
-	}
-	.step-box:last-child{
-		margin-bottom: 50px;
-	}
-}
