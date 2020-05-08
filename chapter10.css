@@ -56,9 +56,24 @@ main{
   margin: 15px 0 5px;
 }
 
-@media screen and (max-width: :768px) {
+@media screen and (max-width:768px) {
+	main{
+		width: 90%;
+		padding: 50px auto;
+		margin: 0 auto;
 
-
-
+	}
+	.step-box{
+		float: none;
+	}
+	.step-box:first-child{
+		margin: 0 auto;
+	}
+	.step-box:last-child{
+		margin: 0 auto;
+	}
+	.step-box:nth-child(2){
+		margin: 20px auto;
+	}
 }
 
